@@ -10,5 +10,8 @@ package simple_calculator;
  */
 public class Calculator {
 
+    public void power(double a, double b) {
+        System.out.println((Math.pow(a, b)));
+    }
 
 }
