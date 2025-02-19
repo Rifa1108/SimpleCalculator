@@ -8,13 +8,15 @@ package simple_calculator;
  *
  * @author rifa1
  */
-public class Simple_Calculator {
+public class CalculatorApp {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    }
+       CalculatorGUI myGui = new CalculatorGUI();
+       myGui.setVisible(true);
     
+}
 }
