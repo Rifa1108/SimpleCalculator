@@ -15,10 +15,8 @@ public class CalculatorApp {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-       /* CalculatorGUI myGui = new CalculatorGUI();
-        myGui.setVisible(true);*/
-       Calculator c = new Calculator();
-       c.power(3, 6.9);
+        CalculatorGUI myGui = new CalculatorGUI();
+        myGui.setVisible(true);
 
-    }
+}
 }
