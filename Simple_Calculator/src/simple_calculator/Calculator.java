@@ -24,4 +24,11 @@ public class Calculator {
             System.out.println(a / b);
         }
     }
+    public void add(double a, double b) {
+        System.out.println(a + b);
+    }
+
+    public void substract(double a, double b) {
+        System.out.println(a - b);
+    }
 }
