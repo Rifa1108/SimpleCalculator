@@ -13,6 +13,9 @@ public class Calculator {
     public void multiply(double a, double b) {
         System.out.println(a * b);
     }
+    public void power(double a, double b) {
+        System.out.println((Math.pow(a, b)));
+    }
 
     public void divide(double a, double b) {
         if (b == 0) {
