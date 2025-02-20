@@ -10,8 +10,18 @@ package simple_calculator;
  */
 public class Calculator {
 
+    public void multiply(double a, double b) {
+        System.out.println(a * b);
+    }
     public void power(double a, double b) {
         System.out.println((Math.pow(a, b)));
     }
 
+    public void divide(double a, double b) {
+        if (b == 0) {
+            System.out.println("It's forbidden to divide on zero");
+        } else {
+            System.out.println(a / b);
+        }
+    }
 }

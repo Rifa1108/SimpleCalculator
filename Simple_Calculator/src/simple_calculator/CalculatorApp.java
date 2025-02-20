@@ -18,5 +18,5 @@ public class CalculatorApp {
         CalculatorGUI myGui = new CalculatorGUI();
         myGui.setVisible(true);
 
-}
+    }
 }
