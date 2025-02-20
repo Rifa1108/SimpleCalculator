@@ -10,7 +10,6 @@ package simple_calculator;
  */
 public class Calculator {
 
-
     public void multiply(double a, double b) {
         System.out.println(a * b);
     }

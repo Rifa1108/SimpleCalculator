@@ -157,12 +157,11 @@ public class CalculatorGUI extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        try{
-        double a = Double.parseDouble(jTextField1.getText());
-        double b = Double.parseDouble(jTextField2.getText());
-        jLabel1.setText(String.valueOf(a+b));
-        }
-        catch (NumberFormatException mismatch){
+        try {
+            double a = Double.parseDouble(jTextField1.getText());
+            double b = Double.parseDouble(jTextField2.getText());
+            jLabel1.setText(String.valueOf(a + b));
+        } catch (NumberFormatException mismatch) {
             JOptionPane.showMessageDialog(null, "Вводите корректные данные!", "Error", JOptionPane.ERROR_MESSAGE);
         }
         jTextField1.setText("");
@@ -171,7 +170,7 @@ public class CalculatorGUI extends javax.swing.JFrame {
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
-        
+
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
@@ -180,12 +179,11 @@ public class CalculatorGUI extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        try{
-        double a = Double.parseDouble(jTextField1.getText());
-        double b = Double.parseDouble(jTextField2.getText());
-        jLabel1.setText(String.valueOf(a-b));
-        }
-        catch (NumberFormatException mismatch){
+        try {
+            double a = Double.parseDouble(jTextField1.getText());
+            double b = Double.parseDouble(jTextField2.getText());
+            jLabel1.setText(String.valueOf(a - b));
+        } catch (NumberFormatException mismatch) {
             JOptionPane.showMessageDialog(null, "Вводите корректные данные!", "Error", JOptionPane.ERROR_MESSAGE);
         }
         jTextField1.setText("");
@@ -194,17 +192,15 @@ public class CalculatorGUI extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
-        try{
-        double a = Double.parseDouble(jTextField1.getText());
-        double b = Double.parseDouble(jTextField2.getText());
-        if (b==0){
-            JOptionPane.showMessageDialog(null, "Вводите корректные данные!", "Error", JOptionPane.ERROR_MESSAGE);
-        }
-        else{
-        jLabel1.setText(String.valueOf(a/b));
-        }
-        }
-        catch (NumberFormatException mismatch){
+        try {
+            double a = Double.parseDouble(jTextField1.getText());
+            double b = Double.parseDouble(jTextField2.getText());
+            if (b == 0) {
+                JOptionPane.showMessageDialog(null, "Вводите корректные данные!", "Error", JOptionPane.ERROR_MESSAGE);
+            } else {
+                jLabel1.setText(String.valueOf(a / b));
+            }
+        } catch (NumberFormatException mismatch) {
             JOptionPane.showMessageDialog(null, "Вводите корректные данные!", "Error", JOptionPane.ERROR_MESSAGE);
         }
         jTextField1.setText("");
@@ -213,12 +209,11 @@ public class CalculatorGUI extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-        try{
-        double a = Double.parseDouble(jTextField1.getText());
-        double b = Double.parseDouble(jTextField2.getText());
-        jLabel1.setText(String.valueOf(a*b));
-        }
-        catch (NumberFormatException mismatch){
+        try {
+            double a = Double.parseDouble(jTextField1.getText());
+            double b = Double.parseDouble(jTextField2.getText());
+            jLabel1.setText(String.valueOf(a * b));
+        } catch (NumberFormatException mismatch) {
             JOptionPane.showMessageDialog(null, "Вводите корректные данные!", "Error", JOptionPane.ERROR_MESSAGE);
         }
         jTextField1.setText("");
@@ -227,12 +222,11 @@ public class CalculatorGUI extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
-        try{
-        double a = Double.parseDouble(jTextField1.getText());
-        double b = Double.parseDouble(jTextField2.getText());
-        jLabel1.setText(String.valueOf(Math.pow(a, b)));
-        }
-        catch (NumberFormatException mismatch){
+        try {
+            double a = Double.parseDouble(jTextField1.getText());
+            double b = Double.parseDouble(jTextField2.getText());
+            jLabel1.setText(String.valueOf(Math.pow(a, b)));
+        } catch (NumberFormatException mismatch) {
             JOptionPane.showMessageDialog(null, "Вводите корректные данные!", "Error", JOptionPane.ERROR_MESSAGE);
         }
         jTextField1.setText("");

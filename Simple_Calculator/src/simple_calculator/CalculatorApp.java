@@ -17,6 +17,6 @@ public class CalculatorApp {
         // TODO code application logic here
         CalculatorGUI myGui = new CalculatorGUI();
         myGui.setVisible(true);
-        
-}
+
+    }
 }
